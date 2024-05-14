@@ -1,0 +1,80 @@
+.travel-modal {
+  z-index: 20;
+  position: absolute;
+  top: var(--space-lg);
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  height: 85%;
+  width: 90%;
+  padding: var(--space-xl);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-lg);
+
+  background: var(--color-background-primary);
+  border-radius: var(--rounded-lg);
+  border: 1px solid var(--color-background-tertiary);
+}
+
+.close {
+  position: absolute;
+  top: var(--space-lg);
+  right: var(--space-xl);
+
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.range-display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.range-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--space-md);
+}
+
+.range-window {
+  padding: var(--space-sm);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--rounded-md);
+  background-color: rgb(var(--rgb-color-accent) / .25);
+  color:var(--color-accent-muted);
+  font-weight: 700;
+}
+
+.travel-days-display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.travel-window {
+  height: 4ch;
+  aspect-ratio: 1 / 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--rounded-md);
+  background-color: rgb(var(--rgb-color-accent) / .25);
+  color:var(--color-accent-muted);
+  font-weight: 700;
+}

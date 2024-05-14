@@ -1,0 +1,32 @@
+.apply-button {
+  margin-top: var(--space-md);
+  padding: 2px;
+
+  display: block;
+  
+  box-sizing: border-box;
+  background-image: var(--rainbow-gradient);
+  border-radius: var(--rounded-md);
+  overflow: hidden;
+}
+
+.button-center {
+  z-index: 10;
+
+  height: 100%;
+  width: 100%;
+  padding: var(--space-md) 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--rounded-md);
+  background-color: var(--color-neutral-900);
+  color: var(--color-text-invert);
+  font-size: 1.55rem;
+}
+
+.button-center:hover {
+  background-color: var(--color-neutral-850);
+}

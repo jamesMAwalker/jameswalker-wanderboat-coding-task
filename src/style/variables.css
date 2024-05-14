@@ -1,0 +1,60 @@
+:root {
+  /* COLOR PRIMITIVES */
+  --rgb-color-neutral-100: 249 250 252;
+  --rgb-color-neutral-200: 242 245 250;
+  --rgb-color-neutral-300: 227 231 240;
+  --rgb-color-neutral-400: 183 184 188;
+  --rgb-color-neutral-850: 23 29 54;
+  --rgb-color-neutral-900: 17 22 41;
+
+  --rgb-color-accent: 78 129 238;
+  --rgb-color-accent-muted: 41 90 159;
+  --rgb-color-emphasized: 209 74 62;
+
+  --color-neutral-100: #f9fafc;
+  --color-neutral-200: #f2f5fa;
+  --color-neutral-300: #e3e7f0;
+  --color-neutral-400: #b7b8bc;
+  --color-neutral-850: #171d36;
+  --color-neutral-900: #111629;
+
+  /* COLOR TOKENS */
+  --color-background-primary: rgb(var(--rgb-color-neutral-100));
+  --color-background-secondary: rgb(var(--rgb-color-neutral-200));
+  --color-background-tertiary: rgb(var(--rgb-color-neutral-300));
+
+  --color-text: rgb(var(--rgb-color-neutral-900));
+  --color-text-invert: rgb(var(--rgb-color-neutral-100));
+  --color-text-muted: rgb(var(--rgb-color-neutral-400));
+
+  
+  --color-accent: rgb(var(--rgb-color-accent));
+  --color-accent-muted: rgb(var(--rgb-color-accent-muted));
+  --color-emphasized: rgb(var(--rgb-color-emphasized));
+
+  /* RADIUS */
+  --rounded-sm: 5px;
+  --rounded-md: 10px;
+  --rounded-lg: 25px;
+  --rounded-full: 999px;
+
+  /* SPACING */
+  --space-xs: 0.15rem;
+  --space-sm: 0.25rem;
+  --space-md: 0.5rem;
+  --space-lg: 1rem;
+  --space-xl: 1.5rem;
+  --space-xxl: 2rem;
+
+  /* SHADOWS */
+  --inner-shadow: inset 1px 1px rgba(0, 0, 0, 0.25);
+  --outer-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+
+  /* GRADIENTS */
+  --rainbow-gradient: linear-gradient(to right, #bc80b0, #e29284, #f4d390);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}

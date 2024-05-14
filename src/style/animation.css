@@ -1,0 +1,23 @@
+.fade-in-up {
+  -webkit-animation: fadeInUp 1s;
+  -moz-animation: fadeInUp 1s;
+  -ms-animation: fadeInUp 1s;
+  -o-animation: fadeInUp 1s;
+  animation: fadeInUp 1s;
+}
+@keyframes fadeInUp {
+  from { translate: 0 10%; opacity: 0; }
+  to { translate: 0 0%; opacity: 1; }
+}
+
+.fade-in {
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

@@ -1,0 +1,22 @@
+.num-days-selector {
+  padding-left: var(--space-xl);
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--space-xxl);
+}
+
+.control {
+  border: 1px solid transparent;
+  font-size: 2.5rem;
+  color: var(--color-accent-muted);
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.output {
+  font-size: 1.25rem;
+  padding-top: 5%;
+}

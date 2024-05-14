@@ -1,0 +1,14 @@
+.layout {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr min(1044px, 100%) 1fr;
+  & > * {
+    grid-column: 2;
+    border-left: 1px solid var(--neutral-300);
+    border-right: 1px solid var(--neutral-300);
+  }
+  .full-bleed {
+    grid-column: 1 / -1;
+  }
+}
